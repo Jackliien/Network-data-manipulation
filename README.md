@@ -14,6 +14,9 @@ In qualtrics the relational data should be gathered in a matrix table as in the 
        Tom               ()
 
 
+
+Note: In qualtrics the question display option 'matrix table' must be selected otherwise the code does not work. 
+
 The Rcode will transform te relational data into an affiliation matrix as shown in the example below: 
 
 
