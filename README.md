@@ -36,5 +36,9 @@ The Code in this repository can be used to transform this XML data into an affil
 
 - The working directory in line 3
 - The name of your xml document in line 11 and 12 
-- Replace line 19 and 20 by the list 'actor.names' which contains the names of the choiche options in the questionaires
-- 
+- Replace line 19 and 20 by the list 'actor.names' which contains the names of the choice options in the questionaires
+- Insert the number of actors in line 23
+- Check in the dataframe 'responses' which row number contains the respondents' names and insert this in line 25
+- Check in the dataframe which row numbers contain the relational data of interest and insert this range in line 33
+
+The affiliation matrix can now be exported in csv format and used for further analysis. 
