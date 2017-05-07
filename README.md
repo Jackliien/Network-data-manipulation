@@ -1,5 +1,5 @@
 # Network-data-manipulation
-This repository contains Rcode which translates relational data from Qualtrics into an affiliation matrix.
+This repository contains Rcode which translates relational data from Qualtrics into an adjecancy matrix.
 
 In qualtrics the relational data should be gathered in a matrix table as in the following example: 
 
@@ -17,7 +17,7 @@ In qualtrics the relational data should be gathered in a matrix table as in the 
 
 Note: In qualtrics the question display option 'matrix table' must be selected otherwise the code does not work. 
 
-The Rcode will transform te relational data into an affiliation matrix as shown in the example below: 
+The Rcode will transform te relational data into an adjecancy matrix as shown in the example below: 
 
 
              Tim   Rick    Linda   Jerry   Tom 
@@ -44,4 +44,4 @@ The Code in this repository can be used to transform this XML data into an affil
 - Check in the dataframe 'responses' which row number contains the respondents' names and insert this in line 25
 - Check in the dataframe which row numbers contain the relational data of interest and insert this range in line 33
 
-The affiliation matrix can now be exported in csv format and used for further analysis. 
+The adjecancy matrix can now be exported in csv format and used for further analysis. 
